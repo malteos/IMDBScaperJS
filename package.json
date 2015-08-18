@@ -1,0 +1,14 @@
+{
+  "name"         : "imdbscraper",
+  "version"      : "0.0.1",
+  "description"  : "Scrape le imdb.",
+  "main"         : "imdbscraper.js",
+  "author"       : "Malte Schwarzer",
+  "dependencies" : {
+    "osmosis"    : "latest",
+    "dateformat"    : "latest",
+    "image-size"    : "latest",
+    "request"       : "latest",
+    "mkdirp"        : "latest"
+  }
+}
