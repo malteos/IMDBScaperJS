@@ -18,5 +18,3 @@ var bot = new imdbscraper();
 bot.setNamesPath(argv.names || __dirname + '/names.json');
 bot.setWorkingDir(argv.d || __dirname + '/workingdir');
 bot.downloadActorImagesBornToday(argv.n || 5);
-
-//console.log("done " + logger.debugLevel + "; " +  __dirname);
